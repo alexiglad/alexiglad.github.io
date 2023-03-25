@@ -1,0 +1,10 @@
+.profile-image-container {
+    float: left;
+    margin-right: 20px; /* Adjust the value to add more space between the image and the content */
+  }
+  
+  .profile-image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Optional: makes the image circular */
+  }

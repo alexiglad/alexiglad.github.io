@@ -1,4 +1,6 @@
-remote_theme: pages-themes/modernist@v0.2.0
+#remote_theme: pages-themes/modernist@v0.2.0
+title: Alexi Gladstone
+remote_theme: mmistakes/minimal-mistakes
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 baseurl: ""
