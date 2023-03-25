@@ -7,11 +7,12 @@ title: Home
 </div>
 
 
-{% include about.html %}
-{% include news.html %}
-{% include publications.html %}
-{% include socials.html %}
-{% include services.html %}
+<div class="main-content">
+  {% include about.html %}
+  {% include news.html %}
+  {% include publications.html %}
+  {% include socials.html %}
+  {% include services.html %}
 
 
 
