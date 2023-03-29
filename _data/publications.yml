@@ -1,13 +1,14 @@
 - title: "“EQA-MX: Embodied Question Answering using Multimodal Human Expression”"
-  authors: "Md Mofijul Islam, Alexi Gladstone, Riashat Islam, Tariq Iqbal."
+  authors: "Md Mofijul Islam,|Alexi Gladstone,|Riashat Islam,|Tariq Iqbal."
   venue: "ICCV-2023"
+  under_review: True
 
 - title: "“PATRON: Perspective-aware Multitask Model for Referring
 Expression Grounding using Embodied Multimodal Cues.”"
-  authors: "Md Mofijul Islam, Alexi Gladstone, Tariq Iqbal."
+  authors: "Md Mofijul Islam,|Alexi Gladstone,|Tariq Iqbal."
   venue: "AAAI 2023 [Main Track Acceptance Rate 19.6%]"
 
 - title: "“CAESAR: An Embodied Simulator for Generating Multimodal Referring Expression Datasets.”"
-  authors: "Md Mofijul Islam, Reza Manuel Mirzaiee, Alexi Gladstone, Haley N. Green, Tariq Iqbal."
+  authors: "Md Mofijul Islam,|Reza Manuel Mirzaiee,|Alexi Gladstone,|Haley N. Green,|Tariq Iqbal."
   venue: "NeurIPS 2022 (Datasets and Benchmarks Track)"
   link: "https://openreview.net/forum?id=SKE_J-B3e9X"

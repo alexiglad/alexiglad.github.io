@@ -8,6 +8,9 @@
   .publication-venue {
     font-weight: bold;
   }
+  .under-review {
+    font-weight: bold;
+  }
 </style>
 
 <section id="publications">
@@ -15,25 +18,27 @@
   <ul>
     {% for publication in site.data.publications %}
       <li>
+        {% if publication.under_review%}
+          <span class="under-review">[Under Review]</span>
+        {% endif %}
         {% if publication.link %}
           <a href="{{ publication.link }}">{{ publication.title }}</a>
         {% else %}
           <span>{{ publication.title }}</span>
         {% endif %}
-        {% assign authors_array = publication.authors | split: "," %}
+        <br>
+        {% assign authors_array = publication.authors | split: "|" %}
         {% for author in authors_array %}
           {% if author contains "Alexi Gladstone" %}
-            <span class="publication-authors your-name">{{author}}</span>
-          {% else %}
+            <span class="publication-authors your-name">{{author}}</span>{% else %}
             <span class="publication-authors">{{author}}</span>
           {% endif %}
-          {% if forloop.last == false %}
-            <span>, </span>
-          {% endif %}
         {% endfor %}
-        <span class="publication-date">{{ publication.venue | date: "%B %d, %Y" }}</span>
-        <span class="publication-venue"><strong>{{ publication.date }}</strong></span>
+        <br>
+        <span class="publication-date">{{ publication.date | date: "%B %d, %Y" }}</span>
+        <span class="publication-venue">{{ publication.venue }} </span>
       </li>
     {% endfor %}
+
   </ul>
 </section>
