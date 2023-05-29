@@ -5,7 +5,7 @@ title: Home
 <div class="content-wrapper">
 <style>
 .headshot {
-  width: 600px;
+  width: 1500px;
   height: auto;
 }
 </style>
@@ -21,7 +21,7 @@ title: Home
   align-items: flex-start;
 }
 </style>
-  <div class="profile-image-container">
+  <div class="profile-image-container" style="margin-top: 35px;">
     <img src="/assets/Headshot.png" alt="Alexi" class="headshot" />
   </div>
 
