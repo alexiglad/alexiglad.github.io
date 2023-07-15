@@ -1,3 +1,12 @@
+- title: "“SDD: A Shape Guided Diffusion Model for Generating Depth”"
+  authors: "Md Mofijul Islam,|Alexi Gladstone,|Tao Groves,|Tariq Iqbal."
+  under_review: True
+
+- title: "“COBRA: Comprehending Embodied Referring Expressions from Multiple Perspectives Using Language and Visual Cues”"
+  authors: "Md Mofijul Islam,|Ganesh Nanduru,|Alexi Gladstone,|Sujan Sarker,|Keyan Du,|Srikar Gouru,|Tariq Iqbal."
+  venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+  under_review: True
+
 - title: "“EQA-MX: Embodied Question Answering using Multimodal Human Expression”"
   authors: "Md Mofijul Islam,|Alexi Gladstone,|Riashat Islam,|Tariq Iqbal."
   venue: "ICCV-2023"
@@ -7,8 +16,11 @@
 Expression Grounding using Embodied Multimodal Cues.”"
   authors: "Md Mofijul Islam,|Alexi Gladstone,|Tariq Iqbal."
   venue: "AAAI 2023 [Main Track Acceptance Rate 19.6%]"
+  link: "https://ojs.aaai.org/index.php/AAAI/article/view/25177"
 
 - title: "“CAESAR: An Embodied Simulator for Generating Multimodal Referring Expression Datasets.”"
   authors: "Md Mofijul Islam,|Reza Manuel Mirzaiee,|Alexi Gladstone,|Haley N. Green,|Tariq Iqbal."
   venue: "NeurIPS 2022 (Datasets and Benchmarks Track)"
   link: "https://openreview.net/forum?id=SKE_J-B3e9X"
+
+  
