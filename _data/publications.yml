@@ -1,25 +1,34 @@
+- title: "“Building World Models through Compatibility Estimation”"
+  authors: "Alexi Gladstone,|Ganesh Nanduru,|Mofijul Islam,|Tariq Iqbal,|Jundong Li"
+  venue: "CVPR 2024"
+  manuscript_preparation: True
+
+- title: "“How do noise level and task complexity affect communication modality effectiveness?”"
+  authors: "Alexi Gladstone,|Kshitij Bhatta,|Zach Yahn,|Autumn Routt,|Tariq Iqbal"
+  manuscript_preparation: True
+
 - title: "“SDD: A Shape Guided Diffusion Model for Generating Depth”"
-  authors: "Md Mofijul Islam,|Alexi Gladstone,|Tao Groves,|Tariq Iqbal."
-  under_review: True
+  authors: "Md Mofijul Islam,|Alexi Gladstone,|Tao Groves,|Tariq Iqbal"
+  manuscript_preparation: True
 
 - title: "“COBRA: Comprehending Embodied Referring Expressions from Multiple Perspectives Using Language and Visual Cues”"
-  authors: "Md Mofijul Islam,|Ganesh Nanduru,|Alexi Gladstone,|Sujan Sarker,|Keyan Du,|Srikar Gouru,|Tariq Iqbal."
+  authors: "Md Mofijul Islam,|Alexi Gladstone,|Ganesh Nanduru,|Sujan Sarker,|Keyan Du,|Srikar Gouru,|Tariq Iqbal"
   venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
-  under_review: True
+  manuscript_preparation: True
 
 - title: "“EQA-MX: Embodied Question Answering using Multimodal Human Expression”"
-  authors: "Md Mofijul Islam,|Alexi Gladstone,|Riashat Islam,|Tariq Iqbal."
-  venue: "ICCV-2023"
+  authors: "Md Mofijul Islam,|Alexi Gladstone,|Riashat Islam,|Tariq Iqbal"
+  venue: "ICLR-2024"
   under_review: True
 
 - title: "“PATRON: Perspective-aware Multitask Model for Referring
 Expression Grounding using Embodied Multimodal Cues.”"
-  authors: "Md Mofijul Islam,|Alexi Gladstone,|Tariq Iqbal."
+  authors: "Md Mofijul Islam,|Alexi Gladstone,|Tariq Iqbal"
   venue: "AAAI 2023 [Main Track Acceptance Rate 19.6%]"
   link: "https://ojs.aaai.org/index.php/AAAI/article/view/25177"
 
 - title: "“CAESAR: An Embodied Simulator for Generating Multimodal Referring Expression Datasets.”"
-  authors: "Md Mofijul Islam,|Reza Manuel Mirzaiee,|Alexi Gladstone,|Haley N. Green,|Tariq Iqbal."
+  authors: "Md Mofijul Islam,|Reza Manuel Mirzaiee,|Alexi Gladstone,|Haley N. Green,|Tariq Iqbal"
   venue: "NeurIPS 2022 (Datasets and Benchmarks Track)"
   link: "https://openreview.net/forum?id=SKE_J-B3e9X"
 

@@ -37,6 +37,8 @@ title: Home
 {% include news.html %}
 {% include services.html %}
 {% include socials.html %}
-[Download my resume](assets/Alexi_Gladstone_Resume.pdf)
+[Download my CV](assets/Alexi_Gladstone_CV.pdf) <br>
+[Download my Resume](assets/Alexi_Gladstone_Resume.pdf)
+
 
 

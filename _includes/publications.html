@@ -8,8 +8,16 @@
   .publication-venue {
     font-weight: bold;
   }
+  .manuscript-preparation {
+    font-weight: bold;
+  }
   .under-review {
     font-weight: bold;
+  }
+  .publication-block {
+    border-bottom: 1px solid #ccc8cc; /* Change #000 to the desired color */
+    padding-bottom: 10px; /* Space between the content and the line */
+    margin-bottom: 10px; /* Space after the line */
   }
 </style>
 
@@ -17,7 +25,11 @@
   <h2>Publications</h2>
   <ul>
     {% for publication in site.data.publications %}
+    <div class="publication-block">
       <li>
+        {% if publication.manuscript_preparation%}
+          <span class="manuscript-preparation">[Manuscript Preparation]</span>
+        {% endif %}
         {% if publication.under_review%}
           <span class="under-review">[Under Review]</span>
         {% endif %}
@@ -38,6 +50,8 @@
         <span class="publication-date">{{ publication.date | date: "%B %d, %Y" }}</span>
         <span class="publication-venue">{{ publication.venue }} </span>
       </li>
+    </div>
+    
     {% endfor %}
 
   </ul>
