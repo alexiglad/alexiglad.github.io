@@ -4,3 +4,6 @@ title: Alexi Gladstone
 baseurl: ""
 sass:
   sass_dir: css
+navigation:
+  - title: "Blog"
+    url: /blog.html
