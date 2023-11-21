@@ -46,7 +46,7 @@ title: Home
 {% include services.html %}
 
 <div class="separator-line">
-<a href="/blog.html" style="font-size: 24px;">Read My Blog on various AI opinions!</a>
+<a href="/blog.html" style="font-size: 24px;">Read my blog on various AI opinions!</a>
 </div>
 
 {% include socials.html %}
