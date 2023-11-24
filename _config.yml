@@ -7,3 +7,4 @@ sass:
 navigation:
   - title: "Blog"
     url: /blog.html
+# permalink: /blog/:title/

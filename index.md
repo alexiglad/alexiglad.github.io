@@ -5,7 +5,7 @@ title: Home
 <div class="content-wrapper">
 <style>
 .headshot {
-  width: 1500px;
+  width: 1300px;
   height: auto;
 }
 </style>
@@ -28,7 +28,7 @@ title: Home
   align-items: flex-start;
 }
 </style>
-  <div class="profile-image-container" style="margin-top: 35px;">
+  <div class="profile-image-container" style="margin-top: 80px;">
     <img src="/assets/Headshot.png" alt="Alexi" class="headshot" />
   </div>
 
@@ -42,13 +42,16 @@ title: Home
 </div>
 
 {% include publications.html %}
-{% include news.html %}
-{% include services.html %}
-
 <div class="separator-line">
-<a href="/blog.html" style="font-size: 24px;">Read my blog on various AI opinions!</a>
+<a href="/blog.html" style="font-size: 24px;">Read my blog on various, often time philosophical, AI thoughts!</a>
 </div>
 
+{% comment %}
+TODO include once have more news :)
+{% include news.html %}
+{% endcomment %}
+
+{% include services.html %}
 {% include socials.html %}
 
 
