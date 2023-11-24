@@ -57,8 +57,8 @@ TODO include once have more news :)
 
 
 <div>
-    <a href="assets/Alexi_Gladstone_CV.pdf" style="font-size: 24px;" >Download my CV</a> <br>
-    <a href="assets/Alexi_Gladstone_Resume.pdf" style="font-size: 24px;">Download my Resume</a>
+    <a href="assets/Alexi_Gladstone_CV.pdf" style="font-size: 20px;" >Download my CV</a> <br>
+    <a href="assets/Alexi_Gladstone_Resume.pdf" style="font-size: 20px;">Download my Resume</a>
 </div>
 
 
