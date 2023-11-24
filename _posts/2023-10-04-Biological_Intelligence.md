@@ -3,7 +3,7 @@ layout: post
 title: "Biological Intelligence May Have an Advantage Over Digital Intelligence"
 ---
 
-[Work in Progress] - How does creativity come about? 
+How does creativity come about? 
 
 # Biological Intelligence May Have an Advantage Over Digital Intelligence
 10/04/2023
