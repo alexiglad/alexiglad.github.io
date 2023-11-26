@@ -30,7 +30,7 @@ For example, in learning a specific subject, people's grasp and internalization 
 If we accept this viewpoint that diversity in beliefs and representation as well as slow curriculum learning are all potentially responsible for human creativity, some questions arise:
 * Is human hardware being non-uniform, or its potential non-determinism[^1], an advantage in innovative capabilities? 
 * Does the diversity and complexity of biological neural hardware in humans play a crucial role in fostering creativity, suggesting that modern computers, with their current deterministic hardware architectures, may inherently lack the capability to exhibit creativity in the same manner as humans?
-* How can we increase the creative capabilities of digital intelligences? Is curriculum learning, being similar to how humans learn, a possible solution?
+* How can we increase the creative capabilities of digital intelligences? Is curriculum learning, being similar to how humans learn, a possible solution? Is reinforcement learning a solution to increasing creativity, [as stated by Ilya Sutskever](https://www.youtube.com/watch?v=OPZxs6IXH00&ab_channel=AlignmentWorkshop)?
 
 I hope this blog sparked some thoughts regarding what differences currently exist between biological and digital intelligence -- and how this impacts characteristics of intelligence such as creativity!
 
