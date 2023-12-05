@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "Biological Intelligence May Have an Advantage Over Digital Intelligence"
+title: "Does Biological Intelligence Have Any Advantages Over Digital Intelligence?"
 ---
 
 How does creativity come about? 
 
-# Biological Intelligence May Have an Advantage Over Digital Intelligence
+# Does Biological Intelligence Have Any Advantages Over Digital Intelligence?
 10/04/2023
 
 I found Geoffrey Hinton’s [“Two Paths to Intelligence”](https://www.youtube.com/watch?app=desktop&v=rGgGOccMEiY&ab_channel=CSERCambridge) talk particularly fascinating. In addition to his strong sense of humor, despite discussing the possible end of the world, I was thoroughly impressed by Dr. Hinton’s ability to reason about the differences in biological and digital intelligence.
 
-<!-- Dr. Hinton discussed  -->
+<!-- Dr. Hinton discussed ...-->
 <!-- TODO detail here brief synposis of the talk -->
 
 One point stuck out to me the most - particularly his point that digital intelligence can be shared rapidly. Currently, it takes less than 30 seconds to upload a mini (not quite as capable as humans yet) digital intelligence using websites such as Github. Once uploaded, almost anyone on the internet can access, download, and use this digital intelligence. This simplified weight sharing takes advantage of the [deterministic nature](https://www.hoppersroppers.org/fundamentals/Hardware/2-ComputersareDeterministic.html) of computers for a given instruction set.
