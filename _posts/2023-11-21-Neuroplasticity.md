@@ -50,7 +50,7 @@ As discussed earlier, using ReLU can cause the dying ReLU "issue". However, in t
 Similar to ReLU, Residual Connections *somewhat[^1]* simulate neurons being able to connect to other layers. If this connection ends up being useful, neurons will leverage it. However, if hurtful, residual connections can approximate the identity function, allowing the neural network's behavior to essentially change to just include one layer rather than two where the residual connection exists. Both of these things simulate structural neuroplasticity, giving another unique perspective on why Residual Connections work!
 
 Densenet has succeeded for essentially the same reason---being able to approximate the identity function, allowing for the network to act as if it has a variable depth during training, while also *somewhat* simulating neurons being able to connect to future layers. 
-<!-- TODO verify both of the above -->
+<!-- TODO verify both of the above, TODO change densenet to mention concatenation -->
 
 
 
