@@ -4,14 +4,13 @@ title: "The Neuroplasticity Hypothesis"
 ---
 
 
-[Work in Progress] - What do many of the most impactful deep learning architectures/nonlinearities have in common?
+What do many of the most impactful deep learning architectural components have in common?
 
 ## The Neuroplasticity Hypothesis
 11/21/2023
 
-*Idea formulated in June 2021 - blog written during date above.*
+*Idea formulated in June 2021 - blog started during date above.*
 
-<!-- Brace yourself, because this blog - if it does its job - may change the way you think about many of deep learning's successes. This viewpoint of deep learning has single-handedly shaped the way I have digested dozens of papers. I hope it inspires a plethora of ideas for you as it has for me. TODO uncomment, maybe not :) -->
 
 - [The Neuroplasticity Hypothesis](#the-neuroplasticity-hypothesis)
     - [ReLU Intuition](#relu-intuition)
@@ -47,12 +46,9 @@ As discussed earlier, using ReLU can cause the dying ReLU "issue". However, in t
 
 #### Residual Connections and Densenet
 
-Similar to ReLU, Residual Connections *somewhat[^1]* simulate neurons being able to connect to other layers. If this connection ends up being useful, neurons will leverage it. However, if hurtful, residual connections can approximate the identity function, allowing the neural network's behavior to essentially change to just include one layer rather than two where the residual connection exists. Both of these things simulate structural neuroplasticity, giving another unique perspective on why Residual Connections work!
+Residual Connections \[[4](#4)\] *somewhat[^1]* simulate neurons being able to connect to other layers. If this connection ends up being useful, it will be optimized for resulting in neurons that leverage it. However, if hurtful, residual connections will optimize to avoid using them and approximate the identity function. This allows neural network's behavior to essentially change to simulate including one layer rather than two where the residual connection exists. Both of these things simulate structural neuroplasticity, giving another unique perspective on why Residual Connections work!
 
-Densenet has succeeded for essentially the same reason---being able to approximate the identity function, allowing for the network to act as if it has a variable depth during training, while also *somewhat* simulating neurons being able to connect to future layers. 
-<!-- TODO verify both of the above, TODO change densenet to mention concatenation -->
-
-
+Densenet \[[5](#5)\] can be seen as similar to Residual Connections---just without the ability to approximate the identity function. Particularly, the characteristic feature of Densenets having layers concatenated to every other future layer can be seen as similar to neurons being able to connect to any arbitrary neuron. 
 
 
 
@@ -62,13 +58,10 @@ Neural Architecture Search (NAS) \[[2](#2)\] is perhaps the most related work to
 
 I don't have the best response to this as I have not extensively studied NAS and was not in the field when it was popular. However, my primary hypothesis is the nature of most NAS algorithms requiring bilevel optimization or having a discrete set of candidate architectures.
 
-Ideally, rather than having an outer loop and trying things, either through gradient descent as in DARTS \[[2](#2)\], or via complex search algorithms over a discrete space such as [cite], NAS would work dynamically within a single training loop over a single model. That is, the layers/structures helpful for performance would dynamically be added or removed.
+Ideally, rather than having an outer loop and trying things, either through gradient descent as in DARTS \[[3](#3)\], or via complex search algorithms over a discrete state space, NAS would work dynamically within a single training loop over a single model. That is, the layers/structures helpful for performance would dynamically be added or removed.
 
-This is somewhat simulated in the one-shot model [cite], where a single model is trained that contains all operations. 
-<!-- todo include more info here -->
+This is somewhat simulated in the one-shot model \[[6](#6)\], where a single model is trained that contains all operations. However, this still has a limitation in that it generally drops an entire operation over a layer or a whole layer at once. Ideally, operations over singular neurons would be able to be learned during training as they are during the constant adaptation of the human brain.
 
-However, this still fundamentally differs from how the brain naturally builds and removes structures that are helpful or hurtful during learning. Additionally, the addition and removal of structures in the brain is much more chaotic, with neurons not being contained within layers. This leads me to another hypothesis...
-<!-- todo include why -->
 
 <!-- mention how is generally different from NAS, goal is to learn an architecture during a single training instance (as the brain does not have episodes in the real world). Right now different architectures are tried, subbed out, etc. Ideally would be to just differentiably learn during training the best arch that could grow or diminish through backprop and not through some higher order algorithm governing search. ideally we could incorporate findings from NAS into an arch that can dynamically involve during training without having to backout and use some algorithm to retry/pick another arch.  -->
 
@@ -78,23 +71,26 @@ However, this still fundamentally differs from how the brain naturally builds an
 
 ## Looking Forward
 
-Down the road, I see the removal of the layer structure of deep neural networks to potentially increase performance. This would ultimately transform artificial neural networks from a sequential layer based structure to a graph based structure---better simulating the human brain. 
+The first iductive bias within deep learning that I see being explored due to this hypothesis is the natural layer structure of deep neural networks. Particularly, one could try to train models without layers, but rather, neurons being able to connect to any other neuron. This would ultimately transform artificial neural networks from having a sequential layer based structure to having a graph based structure---better simulating neuroplasticity within the human brain. 
 
-The biggest issue with doing this currently is computational efficiency. Conducting a forward pass given nodes of a graph is currently much more expensive due to being less parallelizable than conducting a forward pass with sequential layers. Additionally, this would require a differentiable algorithm to dynamically create and remove connections arbitrary neurons.
+The biggest issue with taking this step immediately is computational efficiency. Conducting a forward pass given nodes of a graph with modern hardware is much more expensive than conducting a forward pass with sequential layers when the number of graph nodes is significantly higher than the number of layers. Additionally, this would require a differentiable algorithm to dynamically create and remove connections (synapses) between arbitrary neurons.
 
-
-other architectures/techniques that increase structural neuroplasticity in deep learning
-
-more learnable params, removing more inductive biases that limit neuroplasticity
-
+Long-term, I expect architecture/techniques that further simulate structural neuroplasticity within deep learning to become more and more popular for the same reasons as the architectures/components mentioned above. This could look like more learnable parameters as well as removing more inductive biases that limit neuroplasticity.
 
 
 ## References
 
 <a name="1"></a>[1] Puderbaugh, Matt, and Prabhu D. Emmady. "Neuroplasticity." In StatPearls [Internet]. StatPearls Publishing, 2023.
+
 <a name="2"></a>[2] Weng, Lilian. (Aug 2020). Neural architecture search. Lil’Log. https://lilianweng.github.io/posts/2020-08-06-nas/.
+
 <a name="3"></a>[3] Liu, Hanxiao, Karen Simonyan, and Yiming Yang. "Darts: Differentiable architecture search." arXiv preprint arXiv:1806.09055 (2018).
-<!-- TODO add NAS references -->
+
+<a name="4"></a>[4] He, Kaiming, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. "Deep residual learning for image recognition." In Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 770-778. 2016.
+
+<a name="5"></a>[5] Huang, Gao, Zhuang Liu, Laurens Van Der Maaten, and Kilian Q. Weinberger. "Densely connected convolutional networks." In Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 4700-4708. 2017.
+
+<a name="6"></a>[6] Bender, Gabriel, Pieter-Jan Kindermans, Barret Zoph, Vijay Vasudevan, and Quoc Le. "Understanding and simplifying one-shot architecture search." In International conference on machine learning, pp. 550-559. PMLR, 2018.
 
 
 ## Footnotes
