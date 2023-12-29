@@ -23,7 +23,7 @@ What do many of the most impactful deep learning architectural components have i
 - [Footnotes](#footnotes)
 
 #### ReLU Intuition
-When I was first started studying machine learning I was surprised to discover that ReLU, despite its simplicity, worked well across so many architectures. I remember thinking that its asymmetry about the y-axis ran counterintuitive to what I thought a nonlinearity should look like. To this day, ReLU's success is still not widely understood or agreed upon - but I believe *The Neuroplasticity Hypothesis* to provide strong insight into a characteristic of ReLU that is generally viewed as detrimental but may in fact be favorable and even pivotal in its success as a nonlinearity.
+When I was first started studying machine learning I was surprised to discover that ReLU, despite its simplicity, worked well across so many architectures. I remember thinking that its asymmetry about the y-axis ran counterintuitive to what I thought a nonlinearity should look like. To this day, ReLU's success is still not widely understood or agreed upon.
 
 There are some solid hypotheses at least partially explaining why ReLU works well - such as high computational efficiency, sparsity, mitigating the vanishing gradient problem, and biological plausibility. However, there are also certain *bad* characteristics - such as the dying ReLU - whose impact has not seemed to stop ReLU's success. Today I urge you to ask a question - what if that ReLU dying wasn't so bad after all? *What if your network didn't need that neuron?*
 
@@ -40,9 +40,9 @@ In Artifical Neural Networks (ANNs) the connections between neurons can strength
 
 #### The Neuroplasticity Hypothesis
 
-The Neuroplasticity Hypothesis posits that the success of several architectural features within deep learning, particularly ReLU as well as Residual Connections, can be attributed to their ability to approximate structural neuroplasticity in the brain.
+The Neuroplasticity Hypothesis posits that the success of several architectural components within deep learning, such as ReLU as well as Residual Connections, can be attributed to their ability to approximate structural neuroplasticity in the brain.
 
-As discussed earlier, using ReLU can cause the dying ReLU "issue". However, in the case of structural neuroplasticity, this "issue" begins to look like an advantage. Particularly, using ReLU allows for the simulation of neurons effectively being removed from a model, simulating useless synapses being removed in the brain. Thus, if a neuron is not necessary for solving a problem, and it constantly receives a negative gradient, it being dead can help ensure a neural network does not use it!
+As discussed earlier, using ReLU can cause the dying ReLU "issue". However, in the case of structural neuroplasticity, this "issue" begins to look like an advantage. Particularly, using ReLU allows for the simulation of neurons effectively being removed from a model, simulating useless synapses being removed in the brain. Thus, if a neuron is not necessary for solving a problem, and it constantly receives a negative gradient, it being dead can help ensure a neural network does not use it! With traditional nonlinearities such as sigmoid or tanh this would not be easy to approximate.
 
 #### Residual Connections and Densenet
 
