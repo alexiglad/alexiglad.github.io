@@ -29,7 +29,7 @@ title: Home
 }
 </style>
   <div class="profile-image-container" style="margin-top: 80px;">
-    <img src="/assets/Headshot.png" alt="Alexi" class="headshot" />
+    <img src="/assets/BestHeadshot.jpg" alt="Alexi" class="headshot" />
   </div>
 
 
@@ -43,7 +43,7 @@ title: Home
 
 {% include publications.html %}
 <div class="separator-line">
-<a href="/blog.html" style="font-size: 24px;">Read my blog on various AI thoughts!</a>
+<a href="/blog.html" style="font-size: 24px;">Read my blogs!</a>
 </div>
 
 {% comment %}
