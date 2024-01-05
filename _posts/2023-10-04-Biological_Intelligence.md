@@ -3,7 +3,7 @@ layout: post
 title: "Does Biological Intelligence Have Any Advantages Over Digital Intelligence?"
 ---
 
-How does creativity come about? 
+How does creativity come about? <span>|</span> Estimated Read Time: 6 mins
 
 # Does Biological Intelligence Have Any Advantages Over Digital Intelligence?
 10/04/2023

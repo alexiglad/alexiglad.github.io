@@ -3,7 +3,7 @@ layout: post
 title: "How Can We Improve Governments?"
 ---
 
-How can we change motivations to improve governments?
+How can we change motivations to improve governments? <span>|</span> Estimated Read Time: 5 mins
 
 ## How Can We Improve Governments?
 01/03/2024

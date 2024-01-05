@@ -4,7 +4,7 @@ title: "The Neuroplasticity Hypothesis"
 ---
 
 
-What do many of the most impactful deep learning architectural components have in common?
+What do many of the most impactful deep learning architectural components have in common? <span>|</span> Estimated Read Time: 7 mins
 
 ## The Neuroplasticity Hypothesis
 11/21/2023
