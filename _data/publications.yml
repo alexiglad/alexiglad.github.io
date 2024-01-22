@@ -18,8 +18,8 @@
 
 - title: "“EQA-MX: Embodied Question Answering using Multimodal Human Expression”"
   authors: "Md Mofijul Islam,|Alexi Gladstone,|Riashat Islam,|Tariq Iqbal"
-  venue: "ICLR-2024"
-  under_review: True
+  venue: "ICLR-2024 [Spotlight Acceptance Rate 5%]"
+  link: "https://openreview.net/forum?id=7gUrYE50Rb&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2024%2FConference%2FAuthors%23your-submissions)"
 
 - title: "“PATRON: Perspective-aware Multitask Model for Referring
 Expression Grounding using Embodied Multimodal Cues.”"
