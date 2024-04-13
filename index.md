@@ -46,10 +46,7 @@ title: Home
 <a href="/blog.html" style="font-size: 24px;">Read my blogs!</a>
 </div>
 
-{% comment %}
-TODO include once have more news :)
 {% include news.html %}
-{% endcomment %}
 
 {% include services.html %}
 {% include socials.html %}
