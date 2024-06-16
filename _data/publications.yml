@@ -1,6 +1,7 @@
 - title: "“Cognitively Inspired Energy-Based World Models”"
   authors: "Alexi Gladstone,|Ganesh Nanduru,|Mofijul Islam,|Aman Chadha,|Tariq Iqbal,|Jundong Li"
   venue: "NeurIPS 2024"
+  link: "https://arxiv.org/abs/2406.08862"
   under_review: True
 
 - title: "“How do noise level and task complexity affect communication modality effectiveness?”"
