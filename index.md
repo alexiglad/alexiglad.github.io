@@ -41,10 +41,12 @@ title: Home
   
 </div>
 
-{% include publications.html %}
 <div class="separator-line">
 <a href="/blog.html" style="font-size: 24px;">Read my blogs!</a>
 </div>
+
+{% include publications.html %}
+
 
 {% include news.html %}
 
