@@ -8,7 +8,7 @@ What are the different components of intelligence? <span>|</span> Estimated Read
 
 
 # The Different Components of Intelligence
-10/04/2023
+09/14/2024
 
 
 *It's worth noting that most of this blog is opinion, and that the different aspects of intelligence are abstract ideas, don't necesssarily represent the underlying way the mind works, and may not encompass all different portions of intelligence. If you come up with other aspects of intelligence please email me :)*
