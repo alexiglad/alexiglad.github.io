@@ -33,13 +33,13 @@ Because of evolution, it's easy to see that most modern animals ([and even plant
 As an example of animal learning efficiency, if you put a treat on the floor under a cup, and then put down another cup (with the dog watching), and then point to the cup without a treat under it ([see example image](#image-experiment), [link](https://www.google.com/url?sa=i&url=https%3A%2F%2Flink.springer.com%2F10.1007%2F978-3-319-47829-6_100-1&psig=AOvVaw2cVxlE7-ZVPwfrL25o3WDF&ust=1726449432306000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCLDCsbzjw4gDFQAAAAAdAAAAABAE)), [dogs may follow your point](https://www.psychologytoday.com/us/blog/canine-corner/201502/study-dogs-can-identify-liars-and-they-dont-trust-them). However, often after 1 or a few times doing this dogs will often learn **not** to trust your point. This example demonstrates that dogs will learn quickly given just a few or even 1 example/'shot'/trial.
 
 
-Within the context of AI, the idea of learning efficiency [has long been a focus](https://arxiv.org/abs/2205.06743). People often claim that modern models are great at zero-shot or few-shot generalization... but is this really the case?
+Within the context of AI, the idea of learning efficiency [has long been a focus](https://arxiv.org/abs/2205.06743). People often claim that modern models are great at zero-shot or few-shot learning... but is this really the case?
 
-I believe that "Zero-shot" generalization (and few-shot similarly) can be interpreted in two distinct ways:
+I believe that "Zero-shot" learning (and few-shot similarly) can be interpreted in two distinct ways:
 
-1. **Not seeing something at all during training and generalizing to the test set**: E.g. if you were doing supervised classification, not seeing a dog at all during training, but knowing what a dog is during testing. This is a harder problem and, in my opinion, is impossible. 
+1. **Not seeing something at all during training and being able to predict it on the test set**: E.g. if you were doing supervised classification, not seeing a dog at all during training, but knowing what a dog is during testing. This is a harder problem and, in my opinion, is impossible. 
    
-2. **Not specifically training or learning for a downstream task but still generalizing to the task**: This is relatively easier and has been solved in some cases, such as CLIP for image recognition, LLMs doing in-context learning. It's worth noting though, that these models have seen the concepts they are being tested on throughout pre-training/regular training.
+2. **Not specifically training or learning for a downstream task but still being able to do the task**: This is relatively easier and has been solved in some cases, such as CLIP for image recognition or LLMs being able to extract entities. These models were not trained for the specific task, yet are still able to perform it. It's worth noting though, that these models have seen the concepts/tasks they are being tested on throughout pre-training (or some form of pre-training).
 
 The first definition is the literal definition of zero-shot, while the latter definition is the more commonly used and easier version.
 
@@ -49,9 +49,9 @@ The paper “[Do Multimodal Models Really Achieve Zero-Shot Generalization?](htt
 
 > "We consistently find that, far from exhibiting “zero-shot” generalization, multimodal models require exponentially more data to achieve linear improvements in downstream “zero-shot” performance, following a sample inefficient log-linear scaling trend."
 
-This finding aligns with the second definition of "zero-shot" generalization, and supports the idea that with modern AI we are still far from true zero or few shot generalization (the first definition).
+This finding aligns with the second definition of "zero-shot", and supports the idea that with modern AI we are still far from true zero or few shot generalization/learning efficiency (the first definition).
 
-Recent benchmarks, such as [ARC-AGI](https://arcprize.org/), further support this. Humans can achieve nearly 100% on this benchmark, but modern LLMs only score around 21%, and top approaches score less than 50% (both of these values are based off of when this blog was written in 2024). It's worth noting that problems in the benchmark get progressively (one could even say exponentially) more difficult, so the jump from 21% to 50% is **very significantly** harder than the jump from 50% to 100%. 
+Recent benchmarks, such as [ARC-AGI](https://arcprize.org/), further support this. ARC-AGI measures the abilities of models to learn a completely new task, given just a few examples and then perform that task. Humans can achieve nearly 100% on this benchmark, but modern LLMs only score around 21%, and top approaches score less than 50% (both of these values are based off of when this blog was written in 2024). It's worth noting that problems in the benchmark get progressively (one could even say exponentially) more difficult, so the jump from 21% to 50% is **very significantly** harder than the jump from 50% to 100%. 
 
 
 
