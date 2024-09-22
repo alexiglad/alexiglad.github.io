@@ -4,13 +4,13 @@
   link: "https://arxiv.org/abs/2406.08862"
   under_review: True
 
-- title: "“How do noise level and task complexity affect communication modality effectiveness?”"
-  authors: "Alexi Gladstone,|Kshitij Bhatta,|Zach Yahn,|Autumn Routt,|Tariq Iqbal"
-  manuscript_preparation: True
+# - title: "“How do noise level and task complexity affect communication modality effectiveness?”"
+#   authors: "Alexi Gladstone,|Kshitij Bhatta,|Zach Yahn,|Autumn Routt,|Tariq Iqbal"
+#   manuscript_preparation: True
 
-- title: "“SDD: A Shape Guided Diffusion Model for Generating Depth”"
-  authors: "Md Mofijul Islam,|Alexi Gladstone,|Tao Groves,|Tariq Iqbal"
-  manuscript_preparation: True
+# - title: "“SDD: A Shape Guided Diffusion Model for Generating Depth”"
+#   authors: "Md Mofijul Islam,|Alexi Gladstone,|Tao Groves,|Tariq Iqbal"
+#   manuscript_preparation: True
 
 - title: "“Embodied Referring Expression Comprehension Through Multimodal Residual Learning”"
   authors: "Md Mofijul Islam,|Alexi Gladstone,|Sujan Sarker,|Ganesh Nanduru,|Md Fahim,|Aman Chadha,|Tariq Iqbal"
