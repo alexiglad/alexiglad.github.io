@@ -1,17 +1,7 @@
 <section id="services">
-    <h2>Services</h2>
-    <ul>
-      <li>
-        <h3>Reviewer</h3>
-        <p>Reviewer for NeurIPS 2022 and 2023 Datasets and Benchmarks Track </p>
-      </li>
-      <li>
-        <h3>Research Demonstrations</h3>
-        <p>Presented work to entire machine learning research team at Palantir Technologies including head of machine learning, elementary school students, and graduate students studying linguistics. Presented at UVA Undergraduate Engineering Research Symposium. </p>
-      </li>
-      <li>
-        <h3>Robotics Team Mentor</h3>
-        <p>Mentored several middle school and high school VEX robotics teams including team 2145Z who won the Virginia State Championship!</p>
-      </li>
-    </ul>
-  </section>
+  <h2>Services</h2>
+  {% capture services %}
+    {% include_relative _data/services.md %}
+  {% endcapture %}
+  {{ services | markdownify }}
+</section>
