@@ -1,3 +1,8 @@
+- title: "“Vision Reward Bench: Towards Scalable Benchmarking Beyond Tasks”"
+  authors: "Alexi Gladstone*,|Siddhartha Mishra*,|Heng Ji"
+  venue: "ICML 2025"
+  manuscript_preparation: True
+
 - title: "“Cognitively Inspired Energy-Based World Models”"
   authors: "Alexi Gladstone,|Ganesh Nanduru,|Mofijul Islam,|Aman Chadha,|Tariq Iqbal,|Jundong Li"
   venue: "NeurIPS 2024"
