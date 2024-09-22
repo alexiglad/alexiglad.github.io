@@ -11,17 +11,17 @@ What are the different components of intelligence? <span>|</span> Estimated Read
 09/14/2024
 
 
-*It's worth noting that most of this blog is opinion, and that the different aspects of intelligence are abstract ideas, don't necesssarily represent the underlying way the mind works, and may not encompass all different portions of intelligence. If you come up with other aspects of intelligence please email me :)*
+*It's worth noting that most of this blog is not very scientific and is mostly just a useful abstraction for how to view the different components of intelligence (which is especially useful for thinking about current model capablities or benchmarking). The different aspects of intelligence are abstract ideas, don't necesssarily represent the underlying way the mind works, and may not encompass all different portions of intelligence. If you come up with other aspects of intelligence please email me :)*
 
 
-### Memorization and Knowledge 
+### 1) Memorization and Knowledge 
 
 Memorization broadly refers to the ability to recite information. Knowledge goes a step beyond this, and involves applying memorized information to new contexts. Knowledge often involves understanding at a deeper level than sole memorization.
 
 As of 2024, Large Language Models (LLMs) are pretty good at memorization and, are half decent at knowledge, but fail at most of the other aspects of intelligence discussed below.
 
 
-### Learning Efficiency
+### 2) Learning Efficiency
 
 Because of evolution, it's easy to see that most modern animals ([and even plants](https://pubmed.ncbi.nlm.nih.gov/24390479/)), learn pretty efficiently.
 
@@ -65,7 +65,7 @@ Recent benchmarks, such as [ARC-AGI](https://arcprize.org/), further support thi
 
 
 
-### Generalization, Creativity, and Invention
+### 3) Generalization, Creativity, and Invention
 
 Generalization, in the context of intelligence, can broadly be defined as "the ability to apply learned knowledge or skills to new and varied situations." Similarly, creativity can be thought of as "the ability to generate novel and original ideas or solutions by combining existing knowledge or skills in innovative ways[^1]."  It's easy to see that the further someone is able to generalize, the better their creativity will likely be. It's also worth noting that creativity and generalization are spectrums, and not binary skills that intelligent systems either do or don't have.
 
@@ -79,19 +79,22 @@ I've ordered this blog based off of which aspects of intelligence I believe to b
 
 
 #### Compression
-Tons of AI researchers love mentioning how compression is linked/core to intelligence. I've always agreed with this statement. To me, however, it was never clear *why* (at least with an elegant explanation). I think the framework discussed in this blog to look at different aspects of intelligence provides a great lens, here's how:
-> Compression in an of itself is an aspect of memorization/knowledge. Let's say animal A has compressed 1000 bits of information into 100 bits, and animal B compressed the same information into 10 bits. Both animals have memorized the same information.
+Tons of AI researchers love mentioning how compression is linked/core to intelligence ([paper](https://arxiv.org/pdf/2309.10668), [twitter mention](https://x.com/arankomatsuzaki)). I've always agreed with this statement. To me, however, it was never clear *why* (at least with an elegant explanation). I think the framework discussed in this blog to look at different aspects of intelligence provides a great lens, here's how:
 
-> However, the difference in these memorizations, is that in the future, animal B will likely be able to generalize to more situations. Why, you ask? Intuitively, animal B has likely memorized more of the core reasoning/explanation than animal A, and that will likely explain future situations better. Mathematically, there are also some cool proofs for this ([Ilya talk](https://www.youtube.com/watch?v=AKMuA_TVz3A), [related paper](https://arxiv.org/pdf/2304.09355)).
+Compression in an of itself is an aspect of memorization/knowledge. Let's say animal A has compressed 1000 bits of information into 100 bits, and animal B compressed the same information into 10 bits. Both animals have memorized the same information.
+
+However, the difference in these memorizations, is that in the future, animal B will likely be able to generalize to more situations. Why, you ask? Intuitively, animal B has likely memorized more of the core reasoning/explanation than animal A, and that will likely explain future situations better. Mathematically, there are also some cool proofs for this ([Ilya talk](https://www.youtube.com/watch?v=AKMuA_TVz3A), [related paper](https://arxiv.org/pdf/2304.09355)).
 
 Therefore, we can see that further compression of the same information leads to better generalization. As discussed, I believe generalization is likely the most challenging aspect of intelligence, and hence compression is likely core to high levels of intelligence.
+
+Perhaps the saying "simplicity is key" hits a bit harder after learning this :)
 
 #### Generalization of Modern Models
 While some recent papers have stated that LLMs can come up with novel ideas and do research at the level of humans ([paper1](https://arxiv.org/pdf/2409.04109), [paper2](https://www.arxiv.org/pdf/2408.06292)), there are numerous problems with the methodology of these papers (that I don't have the time to write about). If these papers really did work well, then people doing frontier research would be using LLM generated ideas, rather than what people are doing now which is having real humans do research. LLMs, being trained to predict the next token over existing text corpuses online, are nowhere near being capable of generating their own creative ideas that will eventually lead to technological invention. (I'm not claiming here that LLMs can't assist in the idea generation process, as I agree they are helpful with that. Rather, I'm claiming they are nowhere near being able to generate *their own*, **good** ideas.)
 
 
 ### Summary
-AI in 2024 (mostly dominated by LLMs) is capable of memorization and knowledge to a wide extent. However, modern models fall short of being able to learn efficiently (few-shot), and are nowhere near being able to generalize to the same extent as humans. As most plants and animals are capable of sample efficient learning, I have no doubt that eventually we will have AI that learns as efficiently as plants and animals. To me, the quadrillion dollar problem is--how do humans generalize so well (so much better than even close ancestors such as apes)? And how will we ever train models to be able to generalize to the same extent as humans, such that they can come up with really great ideas that revolutionize society.
+AI in 2024 (mostly dominated by LLMs) is capable of memorization and knowledge to a wide extent. However, modern models fall short of being able to learn efficiently (few-shot), and are nowhere near being able to generalize to the same extent as humans. As most plants and animals are capable of sample efficient learning, I have no doubt that eventually we will have AI that learns as efficiently as plants and animals. To me, the quadrillion dollar problem is--how do humans generalize so well (so much better than even close ancestors such as apes)? And how will we ever train models to be able to generalize to the same extent as humans, such that they can come up with really great ideas that revolutionize society. [I have a blog about this very topic!](https://alexiglad.github.io/2023/10/04/Biological_Intelligence.html)
 
 
 ## Footnotes
