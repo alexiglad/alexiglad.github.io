@@ -1,6 +1,7 @@
 
 **Invited Reviewer**
   - NeurIPS 2022-2024
+  - ICLR 2025
   - ECCV 24
 
 **Research Demonstrations**
