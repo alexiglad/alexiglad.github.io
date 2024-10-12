@@ -51,7 +51,7 @@ The paper “[Do Multimodal Models Really Achieve Zero-Shot Generalization?](htt
 
 This finding aligns with the second definition of "zero-shot", and supports the idea that with modern AI we are still far from true zero or few shot generalization/learning efficiency (the first definition).
 
-Recent benchmarks, such as [ARC-AGI](https://arcprize.org/), further support this. ARC-AGI measures the abilities of models to learn a completely new task, given just a few examples and then perform that task. Humans can achieve nearly 100% on this benchmark, but modern LLMs only score around 21%, and top approaches score less than 50% (both of these values are based off of when this blog was written in 2024). It's worth noting that problems in the benchmark get progressively (one could even say exponentially) more difficult, so the jump from 21% to 50% is **very significantly** harder than the jump from 50% to 100%. 
+Recent benchmarks, such as [ARC-AGI](https://arcprize.org/), further support this. ARC-AGI measures the abilities of models to learn a completely new task, given just a few examples and then perform that task. Humans can achieve nearly 100% on this benchmark, but modern LLMs only score around 21%, and top approaches score less than 50% (both of these values are based off of when this blog was written in 2024). It's worth noting that problems in the benchmark get progressively (one could even say exponentially) more difficult, so the jump from 21% to 50% is **very significantly** easier than the jump from 50% to 100%. 
 
 
 
