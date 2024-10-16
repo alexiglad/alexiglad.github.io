@@ -19,10 +19,15 @@
     padding-bottom: 10px; /* Space between the content and the line */
     margin-bottom: 10px; /* Space after the line */
   }
+  .equal-contribution {
+    font-style: italic;
+    font-size: 0.9em;
+  }
 </style>
 
 <section id="publications">
   <h2>Publications</h2>
+  <p class="equal-contribution">* denotes equal contribution</p>
   <ul>
     {% for publication in site.data.publications %}
     <div class="publication-block">
