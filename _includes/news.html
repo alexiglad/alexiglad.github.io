@@ -1,10 +1,7 @@
 <section id="news">
-    <h2>News</h2>
-    <ul>
-      <li>August 2024: I started my PhD at UIUC working with Professor <a href="https://blender.cs.illinois.edu/hengji.html">Heng Ji</a> in the <a href="https://blender.cs.illinois.edu/people/">Blender Lab</a> </li>
-      <li>April 2024: I accepted my <b>CS PhD</b> offer at <b>UIUC</b>--I will be starting Fall 2024! </li>
-      <li>February 2024: I accepted an offer to work at <b>Palantir</b> as a <b>Machine Learning Research Intern</b> for Summer 2024! I will be working with Visual Language Models in Seattle :).</li>
-      <li>February 2024: Our ICLR paper <a href="https://openreview.net/forum?id=7gUrYE50Rb">EQA-MX</a> was <b>accepted as a spotlight paper (top 5%)!</b></li>
-    </ul>
-    
-  </section>
+  <h2>News</h2>
+  {% capture news %}
+    {% include_relative _data/news.md %}
+  {% endcapture %}
+  {{ news | markdownify }}
+</section>
