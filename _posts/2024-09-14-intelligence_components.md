@@ -77,7 +77,7 @@ I've ordered this blog based off of which aspects of intelligence I believe to b
 
 
 #### Compression
-Tons of AI researchers love mentioning how compression is linked/core to intelligence ([paper](https://arxiv.org/pdf/2309.10668), [twitter mention](https://x.com/arankomatsuzaki)). I've always agreed with this statement. To me, however, it was never clear *why* (at least with an elegant explanation). I think the framework discussed in this blog to look at different aspects of intelligence provides a great lens, here's how:
+Tons of AI researchers love mentioning how compression is linked/core to intelligence ([paper](https://arxiv.org/pdf/2309.10668), [twitter mention](https://x.com/arankomatsuzaki/status/1780073500536872990)). I've always agreed with this statement. To me, however, it was never clear *why* (at least with an elegant explanation). I think the framework discussed in this blog to look at different aspects of intelligence provides a great lens, here's how:
 
 Compression in an of itself is an aspect of memorization/knowledge. Let's say animal A has compressed 1000 bits of information into 100 bits, and animal B compressed the same information into 10 bits. Both animals have memorized the same information.
 
