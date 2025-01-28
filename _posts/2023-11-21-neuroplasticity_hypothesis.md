@@ -4,6 +4,7 @@ title: The Neuroplasticity Hypothesis
 date: 2023-11-21
 description: What do many of the most impactful deep learning architectural components have in common?
 tags: deep_learning, neuroplasticity, ReLU, residual_connections
+giscus_comments: true
 categories: AI, neuroscience
 ---
 

@@ -4,6 +4,7 @@ title: The Different Components of Intelligence
 date: 2024-09-14
 description: What are the different components of intelligence?
 tags: intelligence, memorization, few_shot_learning, generalization, creativity
+giscus_comments: true
 categories: AI, evolution
 ---
 

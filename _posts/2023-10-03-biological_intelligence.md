@@ -4,6 +4,7 @@ title: Does Biological Intelligence Have Any Advantages Over Digital Intelligenc
 date: 2023-10-04
 description: How does creativity come about?
 tags: intelligence, creativity, diversity, curriculum_learning
+giscus_comments: true
 categories: AI
 ---
 

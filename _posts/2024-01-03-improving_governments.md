@@ -4,6 +4,7 @@ title: How Can We Improve Governments?
 date: 2024-01-03
 description: How can we change motivations to improve governments?
 tags: government, communism, capitalism, corruption, motivation, reinforcement_learning
+giscus_comments: true
 categories: politics
 ---
 
