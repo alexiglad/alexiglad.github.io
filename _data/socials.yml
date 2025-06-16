@@ -45,10 +45,13 @@ scholar_userid: j9Cx6PcAAAAJ
 # wikidata_id: # your wikidata id
 # wikipedia_id: # your wikipedia id (Case sensitive)
 # work_url: # work page URL
+
+youtube_id: AlexiGlad # your youtube channel id (youtube.com/@<youtube_id>) https://www.youtube.com/channel/UCV-cqwLZPaifvJCLnuDYXLQ
+bluesky_url: https://bsky.app/profile/alexiglad.bsky.social
 cv_pdf: Alexi_Gladstone_CV.pdf
 
-# bluesky_url: https://bsky.app/profile/alexiglad.bsky.social
-# youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+
+
 # zotero_username: # your zotero username
 # custom_social: # can be any name here other than the ones already defined above
 #   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
