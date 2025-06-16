@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/services/";
           },
-        },{id: "post-the-different-components-of-intelligence",
+        },{id: "post-ebt-energy-based-transformers-are-scalable-learners-and-thinkers",
+      
+        title: "EBT: Energy-Based Transformers are Scalable Learners and Thinkers",
+      
+      description: "What are Energy-Based Transformers and why should I care about them?",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/ebt/";
+        
+      },
+    },{id: "post-the-different-components-of-intelligence",
       
         title: "The Different Components of Intelligence",
       
@@ -46,17 +57,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2024/intelligence_components/";
-        
-      },
-    },{id: "post-ebwm-cognitively-inspired-energy-based-world-models",
-      
-        title: "EBWM: Cognitively Inspired Energy-Based World Models",
-      
-      description: "What are Energy-Based World Models and why should I care about them?",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/EBWM/";
         
       },
     },{id: "post-how-can-we-improve-governments",
@@ -110,6 +110,15 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-be-attending-neurips-2024",
           title: 'I will be attending NeurIPS 2024 :)',
           description: "",
+          section: "News",},{id: "news-i-started-my-meta-research-scientist-internship-in-seattle",
+          title: 'I started my Meta Research Scientist Internship in Seattle!',
+          description: "",
+          section: "News",},{id: "news-i-was-selected-as-a-top-reviewer-for-icml-2025",
+          title: 'I was selected as a top reviewer for ICML 2025',
+          description: "",
+          section: "News",},{id: "news-i-received-the-nsf-graduate-research-fellowship-post",
+          title: 'I received the NSF Graduate Research Fellowship (post)!!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
@@ -144,6 +153,20 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=j9Cx6PcAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-youtube',
+        title: 'YouTube',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://youtube.com/@AlexiGlad", "_blank");
+        },
+      },{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://bsky.app/profile/alexiglad.bsky.social", "_blank");
         },
       },{
         id: 'social-cv_pdf',
