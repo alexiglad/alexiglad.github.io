@@ -37,9 +37,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/services/";
           },
-        },{id: "post-ebt-energy-based-transformers-are-scalable-learners-and-thinkers",
+        },{id: "post-energy-based-transformers-are-scalable-learners-and-thinkers",
       
-        title: "EBT: Energy-Based Transformers are Scalable Learners and Thinkers",
+        title: "Energy-Based Transformers are Scalable Learners and Thinkers",
       
       description: "What are Energy-Based Transformers and why should I care about them?",
       section: "Posts",
