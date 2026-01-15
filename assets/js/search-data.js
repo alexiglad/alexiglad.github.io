@@ -45,7 +45,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/future_of_multimodal/";
+          window.location.href = "/blog/2026/future_of_multimodal/";
         
       },
     },{id: "post-energy-based-transformers-are-scalable-learners-and-thinkers",
