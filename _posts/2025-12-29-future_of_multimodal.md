@@ -10,7 +10,7 @@ categories: AI
 
 **Higher-order thoughts:** *This is a belief I've had for ~2 years now, that I got after working primarily in multimodal learning for ~1 year. My belief has only strengthened with time :).*
 
-There's a concept in multimodal learning called *cross-modal transfer*---the idea that models trained on multiple modalities (like text and images) could gain *shared benefits* from learning across them. Basically, learnings from one modality (say, images) would help the model better understand another modality (say, text). This has been a holy grail for a while now, and recently it's become something of an obsession at frontier labs---both for those working on large multimodal models and those chasing [The Platonic Representation Hypothesis](https://arxiv.org/pdf/2405.07987).
+There's a concept in multimodal learning called *cross-modal transfer*---the idea that models trained on multiple modalities (like text and images) could gain *shared benefits* from learning across them. Basically, learnings from one modality (say, images) would help the model better understand another modality (say, text). This has been a desired result for a while now, and recently it's become something of an obsession at frontier labs---both for those working on large multimodal models and those chasing [The Platonic Representation Hypothesis](https://arxiv.org/pdf/2405.07987).
 
 This characteristic has been sought after for good reason. Achieving strong cross-modal transfer at scale would make models so much better at understanding ... well everything. Us humans do this effortlessly---a child who learns the word "dog" from a picture book can instantly recognize a real dog they've never seen before, and vice versa.
 
@@ -41,7 +41,7 @@ Fortunately, nature has already given us a pair of modalities that are *beautifu
 
 What makes this even better is that video-audio data exists *for free* in the real world. No expensive labeling or data curation[^1]. You want aligned multimodal data? Just go outside and hit record, or strap a camera on a baby (I'm slightly joking with this, but not really, see [SAYCam](https://direct.mit.edu/opmi/article/doi/10.1162/opmi_a_00039/97495/SAYCam-A-Large-Longitudinal-Audiovisual-Dataset)).
 
-A great example of people exploiting this inherent alignment is [Veo 3](https://deepmind.google/models/veo/). Unlike previous video generation models that output silent videos (looking at you, Sora), Veo 3 *natively* generates synchronized audio---dialogue, sound effects, ambient noise---all from a single model. The lip sync is surprisingly good, and sounds actually match what's happening on screen. This isn't post-hoc audio slapped onto generated video; the model is learning from the natural alignment of video and audio in its training data. I'd bet this shared modality is a big part of why Veo 3 works so well, and scaling this up with better architectures will only widen the gap.
+A great example of people exploiting this inherent alignment is [Veo 3](https://deepmind.google/models/veo/). Unlike previous video generation models that output silent videos (looking at you, Sora), Veo 3 *natively* generates synchronized audio---dialogue, sound effects, ambient noise---all from a single model. The lip sync is surprisingly good, and sounds actually match what's happening on screen. This isn't post-hoc audio slapped onto generated video; the model is learning from the natural alignment of video and audio in its training data. I'd bet this shared multimodality is a big part of why Veo 3 works so well, and scaling this up with better architectures will only widen the gap between video-only and video-audio models.
 
 If the hypothesis that data alignment is the true bottleneck for cross-modal transfer is correct, the implications for text aren't great. Text simply doesn't occur at scale in natural alignment with other modalities. Sure, we have audiobooks and podcasts with transcripts, but that's a tiny fraction of the video-audio data out there. Even when text *is* aligned with other modalities, the structural mismatch remains---you're still mapping between discrete, abstract symbols and high-dimensional very noisy continuous signals that contain much more information. 
 
@@ -51,4 +51,4 @@ Therefore, my prediction is that in the long-term future of multimodal AI (maybe
 
 ## Footnotes
 
-[^1]: Data curation pipelines aren't strictly necessary for video-audio data, though people may still use them to improve quality.
+[^1]: Of course, data curation pipelines aren't strictly necessary for video-audio data, though people still often use them to improve quality.
