@@ -12,7 +12,7 @@ categories: AI, neuroscience
 
 Status: *[Work in Progress], self-reflective, heavy sarcasm/bad humor*
 
-I recently wrote the best paper of all time, called "[Energy-Based Transformers are Scalable Learners and Thinkers](https://energy-based-transformers.github.io/static/pdfs/paper.pdf)". As someone who spends too much time thinking, I like to reflect on everything I do, and therefore, I reflected on learnings from this paper. I think reflecting in this manner is important for not only growing as a person but also for anticipating the future.
+I recently wrote a paper called "[Energy-Based Transformers are Scalable Learners and Thinkers](https://energy-based-transformers.github.io/static/pdfs/paper.pdf)". As someone who spends too much time thinking, I like to reflect on everything I do, and therefore, I reflected on learnings from this paper. I think reflecting in this manner is important for not only growing as a person but also for anticipating the future.
 
 The TLDR of the paper (taken from the [blog here](https://alexiglad.github.io/blog/2025/ebt/)) is that a new model type called **Energy-Based Transformers** outscaled the existing paradigm (feed-forward Transformers) while also generalizing reasoning capabilities and generalizing to new data better. This is some pretty cool stuff given most of it had never been done before in AI.
 
