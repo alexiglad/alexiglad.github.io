@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Future of Multimodal Does not Involve Text
-date: 2025-12-29
+date: 2026-01-15
 description: What multimodal paradigm will win out?
 tags: multimodal, llms, vllms, video, audio, text
 giscus_comments: true
