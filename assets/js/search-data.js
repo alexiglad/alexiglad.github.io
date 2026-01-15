@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/services/";
           },
-        },{id: "post-energy-based-transformers-are-scalable-learners-and-thinkers",
+        },{id: "post-the-future-of-multimodal-does-not-involve-text",
+      
+        title: "The Future of Multimodal Does not Involve Text",
+      
+      description: "What multimodal paradigm will win out?",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/future_of_multimodal/";
+        
+      },
+    },{id: "post-energy-based-transformers-are-scalable-learners-and-thinkers",
       
         title: "Energy-Based Transformers are Scalable Learners and Thinkers",
       
