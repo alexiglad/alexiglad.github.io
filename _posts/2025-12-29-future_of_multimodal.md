@@ -37,7 +37,7 @@ That's 90+ words, and I *still* haven't captured the exact shade of green on eac
 
 So if text and images are so poorly aligned, what modalities *are* well aligned?
 
-Fortunately, nature has already given us a pair of modalities that are *beautifully* aligned: **video and audio**. Both are continuous signals. Both are high-dimensional and contain low-level information. They share the same temporal structure---when a door slams in a video, you hear it at exactly the same moment. The alignment isn't something humans had to create through labeling; it's just there.
+Fortunately, nature has already given us a pair of modalities that are *beautifully* aligned: **video and audio**. Both are continuous signals. Both are high-dimensional and contain low-level information. They share the same temporal structure---when a door slams in a video, you hear it at exactly the same moment. The alignment isn't something humans had to create through labeling (which is expensive and unscalable), it's naturally there.
 
 What makes this even better is that video-audio data exists *for free* in the real world. No expensive labeling or data curation[^1]. You want aligned multimodal data? Just go outside and hit record, or strap a camera on a baby (I'm slightly joking with this, but not really, see [SAYCam](https://direct.mit.edu/opmi/article/doi/10.1162/opmi_a_00039/97495/SAYCam-A-Large-Longitudinal-Audiovisual-Dataset)).
 
@@ -47,8 +47,18 @@ If the hypothesis that data alignment is the true bottleneck for cross-modal tra
 
 Therefore, my prediction is that in the long-term future of multimodal AI (maybe the next 5-10 years), text takes a back seat. The most powerful multimodal systems will be built on video and audio, with text serving as an interface for human convenience rather than a core modality for learning. These changes would enable us to train large models at scale with data that is gathered completely unsupervised--just audio and video from the real world.
 
+An interesting implication of this hypothesis is that, if it is true, and multimodal is believed to be necessary for human-level intelligence (which I strongly believe in[^2]), then this implies that:
+
+1. Human-level intelligence (or AGI/ASI/whatever) is not achievable with current language models, being primarily text based, and inherently being incompatible with the "infinite data alignment" of paired real-world modalities like audio and video.
+2. Human-level intelligence will not involve text at all! Since it'll eventuallly be a bottleneck asymptotically in multimodal alignment. It's gotta be end-to-end real-world raw modality processing :). 
+
+
+*~Nature has no hacks. It all comes back to the elegance of the real world~*
+
 <!-- *Okay, I'll admit the title is slightly clickbait---maybe it should have been "The Long-Term Future of Multimodal." But I hope the message remains.* -->
 
 ## Footnotes
 
 [^1]: Of course, data curation pipelines aren't strictly necessary for video-audio data, though people still often use them to improve quality.
+
+[^2]: This is a whole different argument for another blog... My TLDR argument here is there is that navigating in the real-world is a fundamentally important thing you just can't discount and ignore. Any system that claims to be AGI but can't navigate the real world just isn't... and the real world is simply unnavigatable through a text interface.
