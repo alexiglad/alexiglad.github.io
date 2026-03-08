@@ -8,11 +8,11 @@ giscus_comments: true
 categories: AI, philosophy
 ---
 
-**Higher-order thoughts:** *A philosophical thought experiment that I meditated around the end of 2023, that has meaningfully shaped my view of benchmarking AI and life. There are a surprising amount of practical takeaways from this thought experiment, described later on. Much of this shares structure and beliefs from [Nick Bostrom's simulation argument](https://simulation-argument.com/simulation.pdf).*
+**Higher-order thoughts:** *A philosophical thought experiment that I meditated around the end of 2023, that has meaningfully shaped my view of benchmarking AI and life. There are a surprising amount of practical takeaways from this thought experiment, described later on. Much of this shares structure and beliefs from [Nick Bostrom's simulation argument](https://simulation-argument.com/simulation.pdf), just adding a little spice to explain what the meaning of life is.*
 
 
-I'm going to begin this blog by making three relatively weak assumptions, that I'll use for a somewhat deductive argument regarding what the meaning of life is. Then, I'll explain how this is directly related to the future of benchmarking AI (no spoilers :), and end with some practical takeaways.
-<!-- TODO change this formatting -->
+I'm going to begin this blog by making three relatively weak assumptions, that I'll use for a somewhat deductive argument regarding what the meaning of life is, and how this directly relates to the future of benchmarking AI. Then I'll write some clarification, talk about the assumptions, and end with some practical takeaways.
+
 
 First, the three assumptions:
 * Assumption 1: *all civilizations will eventually study intelligence*
@@ -23,57 +23,52 @@ Later, I'll explain why these assumptions are relatively weak, but let's start w
 
 
 
+Given these three assumptions, the argument unfolds fairly naturally. Under assumptions 1 and 2, every civilization eventually creates simulations to study intelligence---and new civilizations emerge *inside* those simulations. Those civilizations, in turn, run their own simulations, and so on. Because of assumption 3, the intelligences at each layer develop (relative) consciousness. Think of this as a tree: a universe at level N spawns many simulated universes at level N+1, each of which spawns even more. The number of universes---and conscious entities---grows exponentially as you go deeper.[^1]
+
+Here's the key insight: **the only thing we know for certain is that we're conscious.** Across all orders of universe, the vast majority of conscious entities sit near the *bottom* of that tree (there are exponentially more of them there). So, absent any other information about where we fall in the hierarchy, we're almost certainly somewhere near the bottom---not at the top. And if we're near the bottom, assumption 2 tells us exactly why our simulation is running. **Thus, the meaning of life is, quite literally, to serve as a benchmark for the study of intelligence by some higher-order being.**
 
 
-![[Pasted image 20241209175954.png]]
-<!-- TODO add this branching image -->
-given these 2 simple assumptions, by extrapolating we can quickly see that we are unlikely to be the highest order multiverse and that we are likely inside a higher order universe's simulation. the diagram shows why this is the case. any Nth order universe will simulate a ton of lower order universes to study intelligence. if we view this web of universes as a tree, that means there are exponentially more universes on the lower branches of that tree than there are at the top of that tree (see the diagram). given that the only thing that we know is that we're conscious, out of all conscious entities (each universe has consciousness) we're more likely to be towards the bottom of that tree. **thus, we're likely just a simulation being used to benchmark AI, which quite literally means the meaning of our lives and our existence is for the study of intelligence by some higher-order being.**
+<figure class="text-center">
+<img src="/assets/img/blog/meaning_of_life/simulations.png" alt="higher order simulation tree" style="transform: rotate(90deg); width: 350px; margin: 60px auto;" />
+</figure>
+
+
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% --> 
 
 Now there are a couple of questions you may be thinking:
-1) "How the hell does this account for consciousness?" 
+1) **"How does this account for consciousness?"**
+
+The key is that consciousness is a *relative* term, not an absolute one. "We're conscious" really just means "we feel conscious to ourselves"---we have no external way to verify this. Think about NPCs in a video game: they appear completely unconscious to us, but that's from our vantage point. Does that tell us anything about how they experience (or don't) their own world? Not really. The same applies in both directions: simulated intelligences that seem unconscious to us can still develop their own relative consciousness over time, and a higher-order universe observing *us* might see us the same way we see those NPCs. Our feeling of consciousness alone doesn't imply we're at the top of the hierarchy.
+<!-- TODO fix woding here less ai -->
+
+2) **What if civilizations end?**
 
 
-(give sims argument and how eventually the intelligence we simulate will be conscious)
+This is where the definition of "civilization" gets tricky. If you view all of evolution---from bacteria to humans---as one continuous civilization, there actually hasn't been a clean ending yet. That's why I intentionally use the word **eventually**.
 
 
-1) What if civilizations end? 
+3) **"Ok, the assumptions have to be too strong"**
 
+Fortunately/unfortunately (depending on your worldview :), they're not that strong.
 
-well, this is where the line on 'what is a civilization' gets tricky, as we can view all of evolution from bacteria to humans as one civilization, where there hasn't been a single ending. that's why i intentionally use the term **eventually**
+*Assumption 1* is perhaps the weakest. Civilization and automation are essentially synonymous---every major leap in human history has been a leap in automation. The transition from hunter-gatherers to farmers automated food acquisition, freeing up time for specialization and trade. The industrial revolution automated physical labor. The digital revolution automated information work. The logical endpoint of this chain is automating the thing that *makes* all of this automation possible---intelligence itself. Any civilization on this trajectory will eventually study intelligence. (In fact an even stronger statement: evolution will eventually produce some species that does this. I'm overanthropomorphizing evolution here, but hopefully the point holds.)
 
+*Assumption 2* is also pretty weak---just look at us. There are probably millions to trillions of simulations launched daily to study intelligence ([OpenAI Gym](https://gymnasium.farama.org/), [Isaac Lab](https://isaac-sim.github.io/IsaacLab/), and many others). These get better over time, and the intelligences inside them do too. Given assumption 3, some of those intelligences will eventually develop their own relative consciousness---at least by their own definitions.
 
-3) "Ok, this is a crazy conclusion, the assumptions have to be too strong" 
+Given all this, it really makes you think---I wonder what order simulation we're in, and who's watching us right now. Are we just an AI benchmark?
 
+<figure class="text-center">
+<img src="/assets/img/blog/meaning_of_life/observers.png" alt="higher order simulation observers" width="400" />
+</figure>
 
-Well, fortunately/unfortunately (who knows what you prefer), they're actually not that strong... 
-
-assumption 1 is extremely weak since the entire being of civilizations is automation. that is, it's pretty accurate to say civilization ~= automation. the entire being of civilizations can be explained through the lens of automation. for example, consider the transition from hunter gatherers to farmers. [chask]. this same transition occurred during the 1900s, when we went from [chask]. thus, civilization and automations are completely intertwined, and it's fair to say that as civilizations continue to develop their pursuance of further automation will also develop.
-
-ok, so civilizations are automation, gotcha, but how does that imply civilizations will study intelligence?
-
-well what's the end goal of automation?
-
-the end goal is the ability to automate automation, that is automating technical development (engineering) and advancement (research). 
-
-and that's what studying intelligence allows for. all automation has occurred because of human intelligence, so if we can replicate this human intelligence and automate it we will have automated automation. thus, any good civilization will eventually study intelligence. in fact an even stronger statement is that evolution will eventually bring about some species that studies intelligence (i know evolution isn't some conscious thing and i'm anthropomorphizing it lol)
-
-assumption 2 is also pretty weak. why you may ask? well look at us. there are probably millions-trillions of simulations launched daily to study intelligence (openai gym, nvidia [], [chask]). overtime, these will get better and the intelligences inside of them will also get better. eventually, these intelligences will likely have some form of consciousness, at least to their own definition. consciousness is not a term that is defined absolutely, but rather a term defined relative to our own feeling of consciousness. to higher order universes simulating our universe now, we may not appear conscious, just as the sims/video game NPC's appear unconscious to us. does that mean they are unconscious to the extent of *their own order universe*? no, which is why our feeling of consciousness does not imply we are in the highest order universe. 
-
-thus, given the fact that every order of universe feels conscious in its own special way, if we look at all conscious life most of it will be towards the bottom of the tree (see the diagram). thus, given we are conscious (to our own definition), and have no way of knowing what order universe we are in, we are probabilistically likely towards the bottom end of that tree. which means we're probably in a simulation, where the reason it's being run is probably to study intelligence. this implies that the meaning of life (our multiverse) is **quite literally** to study intelligence.
-
-given these assumptions are relatively weak, this argument is pretty cool. it really makes you think--i wonder what order simulation we're in and who's watching us right now? Are we just an AI benchmark?
-
-[insert meme of someone looking down into box]
-<!-- TODO gemini this -->
-![[Pasted image 20241209175855.png]]
-
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% --> 
 
 ### Practical Takeaways
 1) Benchmarking with agency (and not supervised learning) is the only true scalable benchmarking paradigm
 
 I don't think enough people have really caught onto this. In the current era of AI, benchmarks are becoming more and more meaningless, with the most true measure of performance basically becoming vibes ([here](https://x.com/karpathy/status/1896266683301659068?s=20) is a good tweet from Karparthy hinting at this). It's also becoming clear to me that this is the case in vision, where world model/policy evaluation is a mess and there really are no great standards. I think [ARC-AGI 3](https://arcprize.org/arc-agi/3/) is a great example of people starting to realize that benchmarking with agency is the future, but not enough work has been done on this front to really push the frontier of agency based benchmarking.
 
-In the limit, benchmarking with agency looks will primarily involve determining whether AI can make big breakthroughs or discoveries. Ideally we'd have accurate simulations to be able to run this quickly, so I could put my AI on a simulated island with it having no prior human knowledge, and it would eventually be able to discover general relativity or AGI/ASI ([reference](https://x.com/AlexiGlad/status/2026098685503844435?s=20)).
+In the limit, benchmarking with agency will primarily involve determining whether AI can make big breakthroughs or discoveries. Ideally we'd have accurate simulations to be able to run this quickly, so I could put my AI on a simulated island with it having no prior human knowledge, and it would eventually be able to discover general relativity or AGI/ASI ([reference](https://x.com/AlexiGlad/status/2026098685503844435?s=20)).
 
 
 2) Achieving true Artificial Superintelligence is likely an inevitable part of any civilization.
@@ -81,18 +76,17 @@ In the limit, benchmarking with agency looks will primarily involve determining 
 It's that simple... the easiest way to automate progress for any given civilization is to automate the thing that enables progress---intelligence.
 
 
-3) Each order of universe may have vastly different sizes and computation available. We can expect that as the order of a universe approaches infinity it's size and compute will tend towards zero.
+3) Each order of universe may have vastly different sizes, physical principles, and amounts of computation available. We can expect that as the order of a universe approaches infinity it's size and compute will tend towards zero.
 
-I've always strongly disliked the common physicist argument for why we can't live in a simulation---that our universe simulating our universe perfectly is infeasible ([some](https://www.sciencedaily.com/releases/2025/11/251110021052.htm) [links](https://pubmed.ncbi.nlm.nih.gov/28959729/)). Universes that we simulate will likely look very different than our universe--we'll probably focus heavily on universes that bias towards specific AI capabilities! Similarly, if **we** are living in a simulation, there's a high chance that the higher-order universe above ours looks completely different. What reason would the simulation about ours have to make the simulation completely the same? Why not simulate smaller phenomena, and only the phenomena they care about (for our universe that may be the effect of narcissism on the stability of civilizations ;)? Wouldn't that make simulation cheaper (and more entertaining :)? Just as an AI playing minecraft in a digital compute cannot make any meaningful deduction about our world, there is no real way with current technology that we can make a deduction about what higher-order universes may be doing.
+I've always strongly disliked the common physicist argument for why we can't live in a simulation---that our universe simulating our universe perfectly is infeasible ([some](https://www.sciencedaily.com/releases/2025/11/251110021052.htm) [links](https://pubmed.ncbi.nlm.nih.gov/28959729/)). Universes that we simulate will likely look very different than our universe--we'll probably focus heavily on universes that bias towards specific AI capabilities! Similarly, if **we** are living in a simulation, there's a high chance that the higher-order universe above ours looks completely different. What reason would the simulation about ours have to make the simulation completely the same? Why not simulate smaller phenomena, and only the phenomena they care about (for our universe that may be the effect of narcissism on the stability of civilizations ;)? Wouldn't that make simulation cheaper (and more entertaining :)? Just as an AI playing minecraft in a digital computer cannot make any meaningful deduction about our world, there is no real way with current technology that we can make a deduction about what higher-order universes may be doing.
 
-1) There is likely either one "order" of universes (ours), or a very very large number.
+4) There is likely either one "order" of universes (ours), or a very very large number.
+There's no real stable middle ground here---either the assumptions are false and no civilization ever creates conscious simulations (one order of universe), or the assumptions hold and the tree runs away to effectively infinite depth. This is closely related to [Bostrom's trilemma](https://simulation-argument.com/simulation.pdf), where he argues that at least one of three things must be true: civilizations go extinct before reaching simulation capability, advanced civilizations choose not to run simulations, or we're almost certainly in one. The same all-or-nothing structure applies here: either the simulation tree never starts, or it's enormous and we're almost certainly near the bottom.
 
-TODO explanation
-
-1) Just as we look at AI in simulation or the sims (as an extreme example) as not conscious; higher-order universes (potentially) simulating our universe may also look at us as not conscious!
+5) Just as we look at AI in simulation or the sims (as an extreme example) as not conscious; higher-order universes (potentially) simulating our universe may also look at us as not conscious!
 
 
-#### Related Works
+### Related Works
 
 There are some related works to seem to have loosely pointed out something similar, but I haven't seen anything as comprehensive/from first principles as this.
 * Of course, Nick Bostrom's original [Are you Living in a Computer Simulation](https://simulation-argument.com/simulation.pdf) paper
@@ -101,12 +95,22 @@ There are some related works to seem to have loosely pointed out something simil
 * [Grok/elon](https://grok.com/share/bGVnYWN5_6337bb6c-2f64-442c-8ab3-9bae7e0588f4?rid=c76bba97-408c-4b62-a2e3-662096683507)
 
 
-#### Closing Thoughts
+### Closing Thoughts
 
-Aside from the assumptions potentially not being true, some other holes include an assumption that we are indeed conscious, that other simulated intelligences will be conscious and have equivalent consciousnesses (i.e. the, all we know is that we're conscious, and we assume uniformity among conscious entities argument).
- <!--TODO explain last point easier  -->
+Aside from the assumptions potentially not being true, the probability argument also relies on a uniformity assumption: that each conscious entity counts equally, regardless of which level of the hierarchy it's at. But maybe higher-order beings have "more" consciousness in some meaningful sense, which would skew the probabilities. All we can really say for certain is that *we* feel conscious---assuming other simulated entities feel the same way (and count equally) is a non-trivial leap.
 
 This thought experiment also isn't very falsifiable in it's current form (at least with modern technology). Happy to hear any thoughts/flaws people can find in the thought experiment!
 
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% --> 
+
+
+## Footnotes
+
+[^1]: A quick demonstration of how we're likely to be near the bottom of this universe hierarchy with conservative numbers: assume each universe runs at least 1,000 simulations, and there are at least 10 levels. The total number of universes across all levels is 1 + 1,000 + 1,000² + ... + 1,000⁹ ≈ 10²⁷. The probability of being in the top-level (non-simulated) universe is therefore roughly **1 in 10²⁷**...
+
 <!-- TODO AFTER -->
 <!-- ctrl f argument, delete? change to thought experiment? -->
+<!-- make so dont have headers and somehow flows better? -->
+<!-- do a search for stuff sounding ai generated, make more similar to my tone/explain better -->
+<!-- check above footnote math -->
+<!-- claude, gemini, analyze critically, give honest opinion if is new and how good it is -->
