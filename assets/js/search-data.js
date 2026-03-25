@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/services/";
           },
-        },{id: "post-the-future-of-multimodal-does-not-involve-text",
+        },{id: "post-the-future-of-benchmarking-and-the-meaning-of-life",
+      
+        title: "The Future of Benchmarking and the Meaning of Life",
+      
+      description: "What&#39;s a benchmarking paradigm that&#39;ll scale to human-level intelligence? What&#39;s the meaning of life? How are these related?",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/future_benchmarking_meaning_life/";
+        
+      },
+    },{id: "post-the-future-of-multimodal-does-not-involve-text",
       
         title: "The Future of Multimodal Does not Involve Text",
       
