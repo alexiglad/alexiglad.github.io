@@ -152,6 +152,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-received-the-nsf-graduate-research-fellowship-post",
           title: 'I received the NSF Graduate Research Fellowship (post)!!',
           description: "",
+          section: "News",},{id: "news-our-ebt-paper-was-accepted-as-an-oral-at-iclr-top-1",
+          title: 'Our EBT paper was accepted as an oral at ICLR (~top 1%)!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
