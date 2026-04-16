@@ -86,7 +86,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: alexi's blog # blog_name will be displayed in your blog page
-blog_description: random philosophical thoughts on intelligence, the meaning of life, politics, and other useless topics :)
+blog_description: random thoughts on intelligence, philosophy, politics, and other stuff :)
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
