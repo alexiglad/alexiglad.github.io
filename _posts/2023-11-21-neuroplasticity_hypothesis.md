@@ -6,6 +6,8 @@ description: What do many of the most impactful deep learning architectural comp
 tags: deep_learning, neuroplasticity, ReLU, residual_connections
 giscus_comments: true
 categories: AI, neuroscience
+scholar: true
+citation: true
 ---
 
 

@@ -6,6 +6,8 @@ description: What's a benchmarking paradigm that'll scale to human-level intelli
 tags: benchmarking, agi, human-level intelligence, life meaning, consciousness
 giscus_comments: true
 categories: AI, philosophy
+scholar: true
+citation: true
 ---
 
 
