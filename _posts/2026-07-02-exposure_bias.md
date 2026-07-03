@@ -46,7 +46,7 @@ It turns out this is a well-known problem, broadly referred to as **exposure bia
 
 People have been trying to solve the exposure bias problem for a while now... and unfortunately, nothing very elegant has come of it. Lots of solutions can reduce the exposure bias issue for a couple of steps (i.e., like the rollout loss with [VJepa2](https://arxiv.org/pdf/2506.09985), or [self-forcing](https://arxiv.org/pdf/2506.08009)/[diffusion forcing](https://arxiv.org/pdf/2407.01392) for diffusion models), but nothing can reduce exposure bias indefinitely in a pre-training aligned manner.
 
-You might think consistency models or MeanFlow fix the exposure bias issue, since they can perform inference in a single step. But they actually suffer from the same problem in a different form: their training mostly consists of small jumps along the trajectory, while inference asks for one giant jump. This still leads to a large mismatch between training and inference.
+Readers familiar with consistency models or MeanFlow models may be tempted to believe these single-step models fix the exposure bias issue, since they can perform inference in a single step. But they actually suffer from the same problem in a different form---their training mostly consists of small jumps along the trajectory, while inference asks for one giant jump. This still leads to a large mismatch between training and inference.
 
 It turns out there's a fundamental reason that modern generative models are trained this way, and getting rid of this nastiness is not easy. 
 
