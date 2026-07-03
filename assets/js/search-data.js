@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/services/";
           },
-        },{id: "post-nurturing-superintelligence",
+        },{id: "post-training-for-marathons-by-sprinting-why-exposure-bias-is-evil",
+      
+        title: "Training for Marathons by Sprinting---Why Exposure Bias is Evil",
+      
+      description: "Autoregressive and diffusion models are trained on a single step but inferenced on thousands. Why does this work at all?",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/exposure_bias/";
+        
+      },
+    },{id: "post-nurturing-superintelligence",
       
         title: "Nurturing Superintelligence",
       
