@@ -3,9 +3,10 @@ layout: post
 title: Training for Marathons by Sprinting---Why Exposure Bias is Evil
 date: 2026-07-02
 description: Autoregressive and diffusion models are trained on a single step but inferenced on thousands. Why does this work at all?
-tags: generative_models, generalization, agi, diffusion, autoregression
+tags: generative_models, generalization, diffusion, autoregression
 giscus_comments: true
 categories: AI
+og_image: https://alexiglad.github.io/assets/img/blog/exposure_bias/evil_exposure_bias_social.jpg
 ---
 
 Let me tell you about a friend of mine. He's a big runner---he loves marathons and he's actually pretty good at them.
@@ -37,6 +38,8 @@ But at inference time, these models are used completely differently... Autoregre
 The analogy here is we train the models to run 100M dashes (a single prediction step), and then inference them on marathons (thousands or even more steps).
 
 This sucks in pretty much every way, shape, and form. During training, models only ever see *ground-truth* data, but at inference, they see their own predictions, which are never perfect. This results in inputs that slowly drift away from anything the model saw during training (a distribution shift), and because every step feeds the next, small errors compound into larger ones. The longer a model generates, the worse things get---you've probably seen this firsthand with video generation models that melt into mush after ten seconds, or LLMs that get less coherent over really long generations.
+
+<img src="/assets/img/blog/exposure_bias/evil_exposure_bias.webp" alt="Exposure bias: the model's generation trajectory drifts away from the ground truth trajectory seen during training and ends completely out-of-distribution" width="600" />
 
 We know neural networks don't generalize out-of-distribution very well. Yet, the BIG TWO generative models we use every day go out-of-distribution *by design*; they are trained on a single step and inferenced on thousands or even millions of steps.
 
