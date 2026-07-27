@@ -51,6 +51,8 @@ People have been trying to solve the exposure bias problem for a while now... an
 
 Readers familiar with consistency models or MeanFlow models may be tempted to believe these single-step models fix the exposure bias issue, since they can perform inference in a single step. But they actually suffer from the same problem in a different form---their training mostly consists of small jumps along the trajectory, while inference asks for one giant jump. This still leads to a large mismatch between training and inference.
 
+If we take a step back, it's kind of amazing that these models even work. A model never takes its own outputs as input during training---then at inference, that's basically all it does, and it does that **thousands of times.**
+
 It turns out there's a fundamental reason that modern generative models are trained this way, and getting rid of this nastiness is not easy. 
 
 Our paper on Explorative Modeling will demonstrate a new way of generative modeling that enables solving this, so more on the challenge of exposure bias is coming very soon :)
