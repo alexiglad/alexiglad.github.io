@@ -55,4 +55,4 @@ If we take a step back, it's kind of amazing that these models even work. A mode
 
 It turns out there's a fundamental reason that modern generative models are trained this way, and getting rid of this nastiness is not easy. 
 
-Our paper on Explorative Modeling will demonstrate a new way of generative modeling that enables solving this, so more on the challenge of exposure bias is coming very soon :)
+Our paper on [Explorative Modeling](https://alexiglad.github.io/blog/2026/explorative_modeling/) demonstrates a new way of generative modeling that enables solving this, check it out :)

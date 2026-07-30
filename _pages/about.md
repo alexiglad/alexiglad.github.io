@@ -27,6 +27,6 @@ When I'm not working, I love working out (I do a mix of powerlifting, calistheni
 When I have time I like reading about computational neuroscience, neuroscience, physics, psychology, philosophy, and a bunch of other stuff. 
 <!-- At my core, I am a philosophical scientist seeking to understand the universe we live in. -->
 
-Feel free to reach out to me at <a href="mailto:alexigladstone@gmail.com">alexigladstone at gmail dot com</a> if you'd like to discuss anything related to research, collaboration, blogs, or life! 
+I'm always open to collaborating or just chatting! Feel free to reach out to me at <a href="mailto:alexigladstone@gmail.com">alexigladstone at gmail dot com</a> to discuss anything related to research, blogs, or life! 
 
 <!-- *I am also looking for collaborators who are available to work at least 20 hours per week. If you are an extremely motivated 10x engineer seeking to work on world-changing ML research please reach out!* -->
