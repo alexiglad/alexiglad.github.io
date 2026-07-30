@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/services/";
           },
-        },{id: "post-training-for-marathons-by-sprinting-why-exposure-bias-is-evil",
+        },{id: "post-explorative-modeling-unlocking-a-third-pretraining-axis-and-end-to-end-generation",
+      
+        title: "Explorative Modeling -- Unlocking a Third Pretraining Axis and End-to-End Generation",
+      
+      description: "What in the world is Explorative Modeling?",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/explorative_modeling/";
+        
+      },
+    },{id: "post-training-for-marathons-by-sprinting-why-exposure-bias-is-evil",
       
         title: "Training for Marathons by Sprinting---Why Exposure Bias is Evil",
       
