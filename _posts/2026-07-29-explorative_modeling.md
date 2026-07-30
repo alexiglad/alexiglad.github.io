@@ -6,7 +6,7 @@ description: What in the world is Explorative Modeling?
 tags: generative_models, generalization, diffusion, autoregression
 giscus_comments: true
 categories: AI
-og_image: https://alexiglad.github.io/assets/img/blog/xm/xm_main_figure.png
+og_image: https://alexiglad.github.io/assets/img/blog/xm/banner_xm.png
 ---
 
 [Website: https://explorative-modeling.github.io/](https://explorative-modeling.github.io/)
