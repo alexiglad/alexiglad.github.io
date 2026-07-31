@@ -303,10 +303,14 @@ Huge thanks to my collaborators Yilun Du and Heng Ji, and to everyone who suppor
 ## Citation
 
 ```bibtex
-@article{gladstone2026explorative,
-  title={Explorative Modeling: Unlocking a Third Pretraining Axis and End-to-End Generation},
-  author={Gladstone, Alexi and Ji, Heng and Du, Yilun},
-  year={2026}
+@misc{gladstone2026explorativemodelingunlockingpretraining,
+      title={Explorative Modeling: Unlocking a Third Pretraining Axis and End-to-End Generation}, 
+      author={Alexi Gladstone and Heng Ji and Yilun Du},
+      year={2026},
+      eprint={2607.27372},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2607.27372}, 
 }
 ```
 
