@@ -47,8 +47,12 @@ scholar_userid: C3G9RJkAAAAJ
 # work_url: # work page URL
 
 youtube_id: AlexiGlad # your youtube channel id (youtube.com/@<youtube_id>) https://www.youtube.com/channel/UCV-cqwLZPaifvJCLnuDYXLQ
-bluesky_url: https://bsky.app/profile/alexiglad.bsky.social
 cv_pdf: Alexi_Gladstone_CV.pdf
+bluesky_url: https://bsky.app/profile/alexiglad.bsky.social
+alphaxiv_social:
+  logo: assets/img/alphaxiv_logo.png
+  title: alphaXiv
+  url: https://www.alphaxiv.org/researchers/alexi-gladstone
 
 
 

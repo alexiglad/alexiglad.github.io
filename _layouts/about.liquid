@@ -51,9 +51,27 @@ layout: default
     <!-- Latest posts -->
     {% if site.latest_posts and site.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest blog posts</a>
       </h2>
       {% include latest_posts.liquid %}
+    {% endif %}
+
+    <!-- Media coverage -->
+    {% if page.media_coverage %}
+      <h2>media coverage</h2>
+      <ul>
+        <li>
+          <a href="https://x.com/AlexiGlad/status/2083230922196107288?s=20">EBTs</a>
+          <ul>
+            {% for item in page.media_coverage %}
+              <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        <li>
+          <a href="https://x.com/AlexiGlad/status/2083230922196107288?s=20">Explorative Models (XMs)</a>
+        </li>
+      </ul>
     {% endif %}
 
     <!-- Selected papers -->
