@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-publications",
-          title: "publications",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
         },{id: "nav-news",
           title: "news",
           description: "",
@@ -174,8 +167,20 @@ ninja.data = [{
           section: "News",},{id: "news-i-received-the-nsf-graduate-research-fellowship-post",
           title: 'I received the NSF Graduate Research Fellowship (post)!!',
           description: "",
+          section: "News",},{id: "news-i-officially-became-a-phd-candidate-at-uiuc",
+          title: 'I officially became a PhD candidate at UIUC!',
+          description: "",
+          section: "News",},{id: "news-we-received-a-laude-institute-slingshot-grant-for-ebt-huge-shoutout-to-laude-for-being-amazing",
+          title: 'We received a Laude Institute Slingshot Grant for EBT! Huge shoutout to Laude...',
+          description: "",
           section: "News",},{id: "news-our-ebt-paper-was-accepted-as-an-oral-at-iclr-top-1",
           title: 'Our EBT paper was accepted as an oral at ICLR (~top 1%)!',
+          description: "",
+          section: "News",},{id: "news-i-gave-the-ebt-oral-at-iclr-2026",
+          title: 'I gave the EBT oral at ICLR 2026!',
+          description: "",
+          section: "News",},{id: "news-we-released-the-explorative-modeling-paper-post",
+          title: 'We released the Explorative Modeling paper (post)!',
           description: "",
           section: "News",},{
         id: 'social-email',
@@ -220,6 +225,13 @@ ninja.data = [{
           window.open("https://youtube.com/@AlexiGlad", "_blank");
         },
       },{
+        id: 'social-cv_pdf',
+        title: 'Cv_pdf',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
         id: 'social-bluesky',
         title: 'Bluesky',
         section: 'Socials',
@@ -227,11 +239,11 @@ ninja.data = [{
           window.open("https://bsky.app/profile/alexiglad.bsky.social", "_blank");
         },
       },{
-        id: 'social-cv_pdf',
-        title: 'Cv_pdf',
+        id: 'social-alphaxiv_social',
+        title: 'Alphaxiv_social',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
+          window.open("https://www.alphaxiv.org/researchers/alexi-gladstone", "_blank");
         },
       },{
       id: 'light-theme',
