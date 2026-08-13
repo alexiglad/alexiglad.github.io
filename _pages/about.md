@@ -49,7 +49,7 @@ When I have time, I like reading about computational neuroscience, neuroscience,
 - [Made Energy-Based Models Good](https://x.com/AlexiGlad/status/1942231878305714462?s=20)
 - [Found a Third Pretraining Axis](https://x.com/AlexiGlad/status/2083230922196107288?s=20)
 <!-- TODO: add later - Unified and Predicted Generative Modeling -->
-- [Figured Out the Meaning of Life](https://alexiglad.github.io/blog/2026/future_benchmarking_meaning_life/)
+- [Figured Out the Meaning of Life :)](https://alexiglad.github.io/blog/2026/future_benchmarking_meaning_life/)
 
 ## research highlights
 
