@@ -182,6 +182,9 @@ ninja.data = [{
           section: "News",},{id: "news-we-released-the-explorative-modeling-paper-post",
           title: 'We released the Explorative Modeling paper (post)!',
           description: "",
+          section: "News",},{id: "news-i-was-awarded-an-open-research-residency-with-laude-institute",
+          title: 'I was awarded an Open Research Residency with Laude Institute!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
@@ -225,11 +228,11 @@ ninja.data = [{
           window.open("https://youtube.com/@AlexiGlad", "_blank");
         },
       },{
-        id: 'social-cv_pdf',
-        title: 'Cv_pdf',
+        id: 'social-cv',
+        title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
+          window.open("/assets/pdf/Alexi_Gladstone_CV.pdf", "_blank");
         },
       },{
         id: 'social-bluesky',
