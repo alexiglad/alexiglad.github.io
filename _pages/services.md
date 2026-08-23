@@ -9,10 +9,14 @@ nav_order: 4
 - NeurIPS 2022-
 - ICML 2025- (Top Reviewer 2025, Silver Reviewer 2026)
 - ICLR 2025-
+- TMLR 2025-
+- ICCV 2025
 - ICRA 2025
 - ECCV 24
 
 **Invited Talks**
+- **Explorative Modeling: Unlocking a Third Pretraining Axis and End-to-End Generation**
+  - [Runway ML](https://runwayml.com/)
 - **Energy-Based Transformers and the Future of Scaling**
   - Cornell
   - University of Geneva (in-person workshop)
@@ -45,7 +49,7 @@ nav_order: 4
 - Zhanyang Jin 2025-present
 - Avery Qian 2024-2025
 - Aniket Tathe 2024-2025
-- Ninad Daithankar 2024-present
+- Ninad Daithankar 2024-2026
 - Ganesh Nanduru 2023-2024
 - Tao Groves 2022-2023
 - VEX robotics team 2145Z (VA State Champions and won many other national competitions!) and various other middle/high school teams

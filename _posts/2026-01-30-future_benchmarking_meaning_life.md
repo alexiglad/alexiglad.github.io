@@ -8,6 +8,7 @@ giscus_comments: true
 categories: AI, philosophy
 scholar: true
 citation: true
+og_image: https://alexiglad.github.io/assets/img/blog/meaning_of_life/simulations.png
 ---
 
 

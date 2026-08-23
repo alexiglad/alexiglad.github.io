@@ -16,7 +16,7 @@ profile:
 news: true # includes a list of news items
 social: true # includes social icons at the bottom of the page
 
-media_coverage: # coverage of Energy-Based Transformers (shown below latest posts)
+ebt_media_coverage:
   - name: The Batch (DeepLearning.AI)
     url: https://www.deeplearning.ai/the-batch/energy-based-transformers-ebts-use-gradient-descent-to-gradually-predict-the-next-token/
   - name: Yannic Kilcher
@@ -27,6 +27,9 @@ media_coverage: # coverage of Energy-Based Transformers (shown below latest post
     url: https://www.youtube.com/watch?v=18Fn2m99X1k
   - name: VentureBeat
     url: https://venturebeat.com/ai/a-new-paradigm-for-ai-how-thinking-as-optimization-leads-to-better-general-purpose-models
+xm_media_coverage:
+  - name: AI Timeline (bycloud)
+    url: https://mail.bycloud.ai/p/explorative-modeling-third-pre-training-axis
 ---
 
 Hey I'm Alexi! 
@@ -44,6 +47,12 @@ When I have time, I like reading about computational neuroscience, neuroscience,
 
 *I'm always open to collaboration or chatting!* Feel free to reach out to me at <a href="mailto:alexigladstone@gmail.com">alexigladstone at gmail dot com</a> to discuss anything related to research, blogs, or life! 
 
+## what I'm up to
+
+- [CS PhD candidate at UIUC](https://blender.cs.illinois.edu/people/)
+- [Open Research Resident at Laude Institute](https://www.laude.org/)
+- [Fellow at QLabs](https://qlabs.sh/)
+
 ## things I've done
 
 - [Made Energy-Based Models Good](https://x.com/AlexiGlad/status/1942231878305714462?s=20)
@@ -55,7 +64,7 @@ When I have time, I like reading about computational neuroscience, neuroscience,
 
 - [Energy-Based Transformers are Scalable Learners and Thinkers](https://x.com/AlexiGlad/status/1942231878305714462?s=20) **(ICLR Oral, ~top 1%)**
 - [Explorative Modeling: Unlocking a Third Pretraining Axis and End-to-End Generation](https://x.com/AlexiGlad/status/2083230922196107288?s=20)
-<!-- TODO: add later - Jumpy Generative Models: The Hidden Spectrum of Generative Modeling -->
+<!-- TODO: add later - Jumpy Generative Models: Unleashing The Hidden Spectrum in Generative Modeling -->
 <!-- TODO: add later - Mode Forcing: A Unifying and Predictive Theory of Generative Modeling -->
 - [You Don't Need Strong Assumptions: Visual Representation Learning via Temporal Differences](https://x.com/AlexiGlad/status/2066924200405979559?s=20)
 

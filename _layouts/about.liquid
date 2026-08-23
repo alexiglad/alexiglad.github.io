@@ -57,19 +57,24 @@ layout: default
     {% endif %}
 
     <!-- Media coverage -->
-    {% if page.media_coverage %}
+    {% if page.ebt_media_coverage or page.xm_media_coverage %}
       <h2>media coverage</h2>
       <ul>
         <li>
-          <a href="https://x.com/AlexiGlad/status/2083230922196107288?s=20">EBTs</a>
+          <a href="https://x.com/AlexiGlad/status/1942231878305714462?s=20">EBTs</a>
           <ul>
-            {% for item in page.media_coverage %}
+            {% for item in page.ebt_media_coverage %}
               <li><a href="{{ item.url }}">{{ item.name }}</a></li>
             {% endfor %}
           </ul>
         </li>
         <li>
           <a href="https://x.com/AlexiGlad/status/2083230922196107288?s=20">Explorative Models (XMs)</a>
+          <ul>
+            {% for item in page.xm_media_coverage %}
+              <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+            {% endfor %}
+          </ul>
         </li>
       </ul>
     {% endif %}
