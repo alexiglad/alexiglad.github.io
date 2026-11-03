@@ -52,17 +52,6 @@ ninja.data = [{
           window.location.href = "/blog/2026/exposure_bias/";
         
       },
-    },{id: "post-nurturing-superintelligence",
-      
-        title: "Nurturing Superintelligence",
-      
-      description: "Why Will AI Be Superintelligent?",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2026/superintelligence/";
-        
-      },
     },{id: "post-the-future-of-benchmarking-and-the-meaning-of-life",
       
         title: "The Future of Benchmarking and the Meaning of Life",
